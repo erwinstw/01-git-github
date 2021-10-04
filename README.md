@@ -115,7 +115,7 @@ isikan nama repositori, deskripsi (opsional), dan lisensi (bila diperlukan), dan
 klik tombol Create repository
 
 Clone Repository
-Clone repositori adalah cara ubtuk menduplikasi ropositori kita yang berada digithub ke komputer lokal. caranya dengan menggunakan perintah berikut ini $ git clone https://alamatrepo.git.
+Clone repositori adalah cara ubtuk menduplikasi ropositori kita yang berada digithub ke komputer lokal. caranya dengan menggunakan perintah berikut ini ``$ git clone``
 
 ![h](img/y.png)
 
@@ -125,9 +125,9 @@ Setelah melakukan clone di komputer lokal kita dapat melakukan perubahan maupun 
 Mengubah - Push tanpa branching dan merging
 perubahan terjadi karena :
 
-Ada file atau direktori yang dihapus
-Isi File berubah, atau file diedit
-Ada File atau direktori baru
+* Ada file atau direktori yang dihapus
+* Isi File berubah, atau file diedit
+* Ada File atau direktori baru
 
 ![h](img/a.png)
 
@@ -135,7 +135,9 @@ Ketika menabahkan file README.md dan memasukan text otomatis telah terjadi perub
 ``$ git push origin branch``
 
 Mengubah isi dengan branching dan merging
-Dengan cara ini ketika akan melakukan perubahan, perubajhan itu dilakukan di komuter lokal dengan membuat branch yang nantinya akan digunakan untuk menampung perubahan - perubahan. Dan nantinya branch itu akan di merge dengan branch utama biasanya bernama master atau main.
+
+
+Dengan cara ini ketika akan melakukan perubahan, perubahan itu dilakukan di komuter lokal dengan membuat branch yang nantinya akan digunakan untuk menampung perubahan - perubahan. Dan nantinya branch itu akan di merge dengan branch utama biasanya bernama master atau main.
 
 ![h](img/b.png)
 
