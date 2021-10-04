@@ -86,8 +86,17 @@ Untuk mencoba dari command prompt, masuk ke command prompt, setelah itu eksekusi
 
 Sebelum mengguanakan git sebaiknya melakukan 2 konfigurasi username dan email, dengan menggunakan perintah berikut ini :
 
-$ git config --global user.name "username"
 
+```
+$ git config --global user.name "username"
 $ git config --global user.email emailkamu@domain.tld
+```
+
+
 
 Pastikan username dan email untuk memasukkan username dan email yang sama dengan github yang digunakan.dan gunakan perintah dibawah ini untuk melihat configurasinya.
+
+# Mengelola repositori di organisasi
+
+Repositori dapat kita buat diakun kita maupun berada di organisasi. Organisasi dapat kita buat sendiri juga bila dimasukkan menjadi anggota organisasi. Perbedaan pada saat membuat diakun sendiri adalah pada bagian Owner, Owner dari repositori yang kita buat adalah organisasi.
+
