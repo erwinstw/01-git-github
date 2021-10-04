@@ -115,3 +115,5 @@ isikan nama repositori, deskripsi (opsional), dan lisensi (bila diperlukan), dan
 Repositori dapat kita buat diakun kita maupun berada di organisasi. Organisasi dapat kita buat sendiri juga bila dimasukkan menjadi anggota organisasi. Perbedaan pada saat membuat diakun sendiri adalah pada bagian Owner, Owner dari repositori yang kita buat adalah organisasi.
 
 ![org](img/organisasi.png)
+
+mengelola repo repo repo
