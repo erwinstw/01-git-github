@@ -101,14 +101,34 @@ Personal access token
 Mulai 13 Agustus 2021, penggunakan token merupakan hal wajib ubtuk semua akses ke github yang memerlukan otentikasi. Sehingga perlu membuat personal access token. dapat melihat pada link berikut : https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ## Mengelola repositori di akun sendiri
+
 ### Membuat Repository
+
 Langkah pertama yang dilakukkan adalah membuat repositori baru klik tanda + dibagian pojok kanan atas, lalu pilih New repository.
+
 ![q](img/c.png)
 
 isikan nama repositori, deskripsi (opsional), dan lisensi (bila diperlukan), dan repositori dapat dibuat public maupun private.
-![org](img/organisasi.png)
 
-Ketika menabahkan file README.md dan memasukan text otomatis telah terjadi perubahan kita perlu untuk melakukan perintah $ git add -A untuk memasukan file mana saja yang akan dicommit, setelah itu kita perlu melakukan commit dengan perintah $ git commit -m "pesan" barulah melakukan push dengan perintah $ git push origin branch.
+![org](img/eq.png)
+
+klik tombol Create repository
+
+Clone Repository
+Clone repositori adalah cara ubtuk menduplikasi ropositori kita yang berada digithub ke komputer lokal. caranya dengan menggunakan perintah berikut ini $ git clone https://alamatrepo.git.
+
+![h](img/y.png)
+
+Setelah melakukan clone di komputer lokal kita dapat melakukan perubahan maupun penambahan yang nantinya dapat dipush ke github.
+
+
+Mengubah - Push tanpa branching dan merging
+perubahan terjadi karena :
+
+Ada file atau direktori yang dihapus
+Isi File berubah, atau file diedit
+Ada File atau direktori baru
+
 
 
 
