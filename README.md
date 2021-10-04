@@ -1,43 +1,83 @@
 # Tugas MDPL Praktik
 <h2> Daftar isi : </h2>
 
-1. Install GIT
+
+1. [Install GIT]()
 2. Konfigurasi GIT
 3. Mengelola Repositori
 * Mengelola repositori di akun sendiri
 * Mengelola repositori di organisasi
 
 <h2> Instalasi Git di Windows</h2>
+
 Setelah download Git, double click pada file yang di-download. Akan dimunculkan lisensi. Klik Next untuk lanjut.
 
-![image.png](img/Screenshot(173).png)
+![image.png](img/1.png)
 
 Setelah itu, pilih lokasi instalasi. Secara default akan terisi C:\Program Files\Git. Ganti lokasi jika memang anda menginginkan lokasi lain, klik Next
 
+![image.png](img/tambahan.jpg)
+
 Pilih komponen. Tidak perlu diubah-ubah, sesuai dengan default saja. Klik pada Next.
+
+![image.png](img/2.png)
 
 Mengisi shortcut untuk menu Start. Gunakan default (Git), ganti jika ingin mengganti - misalnya Git VCS.
 
+![image.png](img/3.png)
+
 Pilih editor yang akan digunakan bersama dengan Git. Pada pilihan ini, digunakan Notepad++.
 
-Pada saat instalasi, Git menyediakan akses git melalui Bash maupun command prompt. Pilih pilihan kedua supaya bisa menggunakan dari dua antarmuka tersebut. Bash adalah shell di Linux. Dengan menggunakan bash di Windows, pekerjaan di command line Windows bisa dilakukan menggunakan bash - termasuk ekskusi dari Git.
+![image.png](img/4.png)
+
+Pilih Let Git decide. 
+
+![image.png](img/5.png)
+
+Pilih Git from command line and also from 3rd-party software
+
+![image.png](img/6.png)
+
+Pilih pilihan pertama
+
+![image.png](img/7.png)
 
 Pilih OpenSSL untuk HTTPS. Git menggunakan https untuk akes ke repo GitHub atau repo-repo lain (GitLab, Assembla).
 
+![image.png](img/8.png)
+
 Pilih pilihan pertama untuk konversi akhir baris (CR-LF).
 
-Pilih PuTTY untuk terminal yang digunakan untuk mengakses Git Bash.
+![image.png](img/9.png)
 
 Untuk opsi ekstra, pilih serta aktifkan 1 dan 2.
 
+![image.png](img/10.png)
+
+Kemudian klik Install
+
+![image.png](img/11.png)
+
 Setelah itu proses instalasi akan dilakukan.
+
+![image.png](img/12.png)
 
 Jika selesai akan muncul dialog pemberitahuan. Klik pada Finish.
 
+![image.png](img/13.png)
+
 Untuk menjalankan, dari Start menu, ketikkan "Git", akan muncul beberapa pilihan. Pilih "Git Bash" atau "Git GUI".
+
+![image.png](img/14.png)
 
 Tampilan jika akan menggunakan "Git Bash"
 
+![image.png](img/15.png)
+
 Tampilan jika akan menggunakan "Git GUI"
 
+![image.png](img/16.png)
+
 Untuk mencoba dari command prompt, masuk ke command prompt, setelah itu eksekusi "git --version" untuk melihat apakah sudah terinstall atau belum. Jika sudah terinstall dengan benar, makan akan muncul hasil berikut:
+
+![image.png](img/17.png)
