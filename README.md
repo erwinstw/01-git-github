@@ -129,12 +129,14 @@ Ada file atau direktori yang dihapus
 Isi File berubah, atau file diedit
 Ada File atau direktori baru
 
-...
-Ketika menabahkan file README.md dan memasukan text otomatis telah terjadi perubahan kita perlu untuk melakukan perintah $ git add -A untuk memasukan file mana saja yang akan dicommit, setelah itu kita perlu melakukan commit dengan perintah $ git commit -m "pesan" barulah melakukan push dengan perintah $ git push origin branch.
+![h](img/a.png)
+
+Ketika menabahkan file README.md dan memasukan text otomatis telah terjadi perubahan kita perlu untuk melakukan perintah $ git add -A untuk memasukan file mana saja yang akan dicommit, setelah itu kita perlu melakukan commit dengan perintah ``$ git commit -m`` "pesan" barulah melakukan push dengan perintah $ git push origin branch.
 
 Mengubah isi dengan branching dan merging
 Dengan cara ini ketika akan melakukan perubahan, perubajhan itu dilakukan di komuter lokal dengan membuat branch yang nantinya akan digunakan untuk menampung perubahan - perubahan. Dan nantinya branch itu akan di merge dengan branch utama biasanya bernama master atau main.
-...
+
+![h](img/b.png)
 
 
 
@@ -144,6 +146,7 @@ Bila kita melakukkan perubahan di komputer lain kita perlu melakukkan sinkronisa
 ```
 $ git pull
 ```
+Membatalkan Perubahan
 
 
 # Mengelola repositori di organisasi
