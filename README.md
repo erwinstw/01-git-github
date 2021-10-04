@@ -131,14 +131,19 @@ Ada File atau direktori baru
 
 ![h](img/a.png)
 
-Ketika menabahkan file README.md dan memasukan text otomatis telah terjadi perubahan kita perlu untuk melakukan perintah $ git add -A untuk memasukan file mana saja yang akan dicommit, setelah itu kita perlu melakukan commit dengan perintah ``$ git commit -m`` "pesan" barulah melakukan push dengan perintah $ git push origin branch.
+Ketika menabahkan file README.md dan memasukan text otomatis telah terjadi perubahan kita perlu untuk melakukan perintah $ git add -A untuk memasukan file mana saja yang akan dicommit, setelah itu kita perlu melakukan commit dengan perintah ``$ git commit -m`` "pesan" barulah melakukan push dengan perintah 
+``$ git push origin branch``
 
 Mengubah isi dengan branching dan merging
 Dengan cara ini ketika akan melakukan perubahan, perubajhan itu dilakukan di komuter lokal dengan membuat branch yang nantinya akan digunakan untuk menampung perubahan - perubahan. Dan nantinya branch itu akan di merge dengan branch utama biasanya bernama master atau main.
 
 ![h](img/b.png)
 
+Pertama buat branch baru lalu buka file README.md kemudian isikan text, dan untuk memastikan kita berada di branch baru ketik perintah ``$ git status``, lalu lakukkan commit, setelah itu kita dapat berindah ke branch utama, dan kita dapat melakkan push di branch baru yang kita buat.
 
+Lalu kirim pull request.
+
+Dan Setelah itu lakukan merge di komputer lokal.
 
 
 # Sinkronisasi
@@ -146,7 +151,19 @@ Bila kita melakukkan perubahan di komputer lain kita perlu melakukkan sinkronisa
 ```
 $ git pull
 ```
-Membatalkan Perubahan
+# Membatalkan Perubahan
+
+Pertama buat branch baru lalu ubah atau tambahkan sebuah text di README.md pindah ke branch utama lalu hapus branch yang baru dibuat. terlihat meskipun branch telah dihapus tetapi riwayat pengeditan masih ada, yang perlu kita lakukkan adalah menggunakan perintah berikut ``$ git reset --hard`` dan riwayat pengeditan telah hilang sepenuhnya.
+
+Undo commit terakhir
+ pada saat kita mengubah README.md dan melakukan commit. dan setelah itu kita dapat mengembalikan pada commit sebelumnya dengan perintah dibawah ini
+
+ ``$ git revert HEAD``
+
+ Jika sudah melakukkan commit, tetapi belum dipush ke repo github, cara membalkannya dengan perintah ``$ get reset --hard HEAD^``
+
+ Cara Untuk kembali ke perubahaan yang sudah lama dapat juga dengan perintah git revert ``$ git revert <posisi>``
+
 
 
 # Mengelola repositori di organisasi
