@@ -153,17 +153,14 @@ $ git pull
 ```
 # Membatalkan Perubahan
 
-Pertama buat branch baru lalu ubah atau tambahkan sebuah text di README.md pindah ke branch utama lalu hapus branch yang baru dibuat. terlihat meskipun branch telah dihapus tetapi riwayat pengeditan masih ada, yang perlu kita lakukkan adalah menggunakan perintah berikut ``$ git reset --hard`` dan riwayat pengeditan telah hilang sepenuhnya.
+* Pertama buat branch baru lalu ubah atau tambahkan sebuah text di README.md pindah ke branch utama lalu hapus branch yang baru dibuat. terlihat meskipun branch telah dihapus tetapi riwayat pengeditan masih ada, yang perlu kita lakukkan adalah menggunakan perintah berikut ``$ git reset --hard`` dan riwayat pengeditan telah hilang sepenuhnya.
 
-Undo commit terakhir
- pada saat kita mengubah README.md dan melakukan commit. dan setelah itu kita dapat mengembalikan pada commit sebelumnya dengan perintah dibawah ini
+* Undo commit terakhir
+ pada saat kita mengubah README.md dan melakukan commit. dan setelah itu kita dapat mengembalikan pada commit sebelumnya dengan perintah ini ``$ git revert HEAD``
 
- ``$ git revert HEAD``
-
- Jika sudah melakukkan commit, tetapi belum dipush ke repo github, cara membalkannya dengan perintah ``$ get reset --hard HEAD^``
+ Jika sudah melakukkan commit, tetapi belum dipush ke repo github, cara mengembalikannya dengan perintah ``$ get reset --hard HEAD^``
 
  Cara Untuk kembali ke perubahaan yang sudah lama dapat juga dengan perintah git revert ``$ git revert <posisi>``
-
 
 
 # Mengelola repositori di organisasi
