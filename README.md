@@ -10,7 +10,7 @@
 <h2> Instalasi Git di Windows</h2>
 Setelah download Git, double click pada file yang di-download. Akan dimunculkan lisensi. Klik Next untuk lanjut.
 
-![image.png]({img/Screenshot (173).png})
+![image.png](img/Screenshot(173).png)
 
 Setelah itu, pilih lokasi instalasi. Secara default akan terisi C:\Program Files\Git. Ganti lokasi jika memang anda menginginkan lokasi lain, klik Next
 
