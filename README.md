@@ -103,12 +103,10 @@ Mulai 13 Agustus 2021, penggunakan token merupakan hal wajib ubtuk semua akses k
 ## Mengelola repositori di akun sendiri
 ### Membuat Repository
 Langkah pertama yang dilakukkan adalah membuat repositori baru klik tanda + dibagian pojok kanan atas, lalu pilih New repository.
-
-
+![q](img/c.png)
 
 isikan nama repositori, deskripsi (opsional), dan lisensi (bila diperlukan), dan repositori dapat dibuat public maupun private.
-
-
+![org](img/organisasi.png)
 
 Ketika menabahkan file README.md dan memasukan text otomatis telah terjadi perubahan kita perlu untuk melakukan perintah $ git add -A untuk memasukan file mana saja yang akan dicommit, setelah itu kita perlu melakukan commit dengan perintah $ git commit -m "pesan" barulah melakukan push dengan perintah $ git push origin branch.
 
@@ -120,13 +118,9 @@ Bila kita melakukkan perubahan di komputer lain kita perlu melakukkan sinkronisa
 $ git pull
 ```
 
-![org](img/organisasi.png)
 
 # Mengelola repositori di organisasi
 
 Repositori dapat kita buat diakun kita maupun berada di organisasi. Organisasi dapat kita buat sendiri juga bila dimasukkan menjadi anggota organisasi. Perbedaan pada saat membuat diakun sendiri adalah pada bagian Owner, Owner dari repositori yang kita buat adalah organisasi.
 
 ![org](img/organisasi.png)
-
-mengelola repo repo repo
-jjsjsjsjsjssjj
