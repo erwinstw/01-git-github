@@ -108,6 +108,18 @@ Langkah pertama yang dilakukkan adalah membuat repositori baru klik tanda + diba
 
 isikan nama repositori, deskripsi (opsional), dan lisensi (bila diperlukan), dan repositori dapat dibuat public maupun private.
 
+
+
+Ketika menabahkan file README.md dan memasukan text otomatis telah terjadi perubahan kita perlu untuk melakukan perintah $ git add -A untuk memasukan file mana saja yang akan dicommit, setelah itu kita perlu melakukan commit dengan perintah $ git commit -m "pesan" barulah melakukan push dengan perintah $ git push origin branch.
+
+
+
+# Sinkronisasi
+Bila kita melakukkan perubahan di komputer lain kita perlu melakukkan sinkronisasi pada komputer lainnya. Dengan perintah berikut :
+```
+$ git pull
+```
+
 ![org](img/organisasi.png)
 
 # Mengelola repositori di organisasi
@@ -117,3 +129,4 @@ Repositori dapat kita buat diakun kita maupun berada di organisasi. Organisasi d
 ![org](img/organisasi.png)
 
 mengelola repo repo repo
+jjsjsjsjsjssjj
