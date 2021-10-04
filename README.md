@@ -2,11 +2,11 @@
 <h2> Daftar isi : </h2>
 
 
-1. [Install GIT]()
-2. Konfigurasi GIT
-3. Mengelola Repositori
-* Mengelola repositori di akun sendiri
-* Mengelola repositori di organisasi
+1. [Install GIT](https://github.com/erwinstw/erwinstw-01-git-github#-instalasi-git-di-windows)
+2. [Konfigurasi GIT]()
+3. [Mengelola Repositori]()
+* [Mengelola repositori di akun sendiri]()
+* [Mengelola repositori di organisasi]()
 
 <h2> Instalasi Git di Windows</h2>
 
@@ -81,3 +81,13 @@ Tampilan jika akan menggunakan "Git GUI"
 Untuk mencoba dari command prompt, masuk ke command prompt, setelah itu eksekusi "git --version" untuk melihat apakah sudah terinstall atau belum. Jika sudah terinstall dengan benar, makan akan muncul hasil berikut:
 
 ![image.png](img/17.png)
+
+# Konfigurasi GIT
+
+Sebelum mengguanakan git sebaiknya melakukan 2 konfigurasi username dan email, dengan menggunakan perintah berikut ini :
+
+$ git config --global user.name "username"
+
+$ git config --global user.email emailkamu@domain.tld
+
+Pastikan username dan email untuk memasukkan username dan email yang sama dengan github yang digunakan.dan gunakan perintah dibawah ini untuk melihat configurasinya.
